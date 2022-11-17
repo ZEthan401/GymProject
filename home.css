@@ -13,14 +13,14 @@ body{
     
     
     
-    .navbar li{
+    .stylist li{
         display: block;
     }
     
 }
 
 @media screen and (min-width: 780px){
-    .navbar{
+    .stylist{
         margin: auto;
         padding: 80px;
         display: flex;
@@ -30,7 +30,7 @@ body{
         background-color: rgba(116, 68, 68, 0.6);
     }
 
-    .navbar ul li{
+    .stylist ul li{
         list-style: none;
         display: inline-block;
         position: relative;
@@ -39,11 +39,11 @@ body{
         text-transform: uppercase;
     }
 
-    .navbar ul li a{
+    .stylist ul li a{
         color: rgb(254, 254, 254);
         font-size: 125%;
     }
-    .navbar ul li a:hover{
+    .stylist ul li a:hover{
         color: rgb(0, 0, 0);
         text-decoration: underline;
     }
@@ -52,6 +52,13 @@ body{
 
     .middle{
         color:rgb(0, 0, 0);
+        font-size: 200%;
+        text-align: center;
+        background-color: rgba(116, 68, 68, 0.6);
+    }
+    .forms
+    {
+        color:rgb(255, 255, 255);
         font-size: 200%;
         text-align: center;
     }
