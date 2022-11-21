@@ -1,0 +1,52 @@
+body{
+    background-image: url(Cheating.gif);
+    background-size: cover;
+}
+@media screen and (min-width: 780px){
+        .stylist{
+            margin: auto;
+            padding: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgba(116, 68, 68, 0.6);
+        }
+    
+        .stylist ul li{
+            list-style: none;
+            display: inline-block;
+            position: relative;
+            margin: 0 100px;
+            padding: 100px;
+            text-transform: uppercase;
+        }
+    
+        .stylist ul li a{
+            color: rgb(254, 254, 254);
+            font-size: 500%;
+        }
+        .stylist ul li a:hover{
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+        }
+    input{
+        visibility: hidden;
+      }
+}
+.info{
+    color:rgb(0, 0, 0);
+    font-size: 400%;
+    text-align: center;
+    background-color: rgba(116, 68, 68, 0.6);
+}
+.middle{
+    color:rgb(0, 0, 0);
+    font-size: 750%;
+    text-align: center;
+    background-color: rgba(116, 68, 68, 0.6);
+}
+.footer {
+    font-size: 18px;
+    text-align: center;
+  }

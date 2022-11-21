@@ -1,0 +1,70 @@
+.layout
+{
+    display: grid;
+}
+ 
+.layout figure
+{
+    margin: 10px;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+ 
+
+/*Code below is for the navigation on top*/
+@media screen and (min-width: 780px){
+    input{
+        visibility: hidden;
+    }
+    .stylist{
+        margin: auto;
+        padding: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(116, 68, 68, 0.6);
+    }
+
+    .stylist ul li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        margin: 0 100px;
+        padding: 100px;
+        text-transform: uppercase;
+    }
+
+    .stylist ul li a{
+        color: rgb(254, 254, 254);
+        font-size: 500%;
+    }
+    .stylist ul li a:hover{
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+    }
+    .bet
+    {
+        align-items: center;
+        font-size: 200%;
+    }
+    .credits
+    {
+        font-size: 300%;
+    }
+}
+/*code below for photo gallery*/
+@media screen and (min-width:1024px)
+{
+    .layout
+    {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .chart {
+     text-align: center;
+     font-size: 400%;
+      }
+}

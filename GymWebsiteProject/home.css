@@ -1,0 +1,75 @@
+body{
+    background-image: url(cbum.gif);
+    background-size: cover;
+}
+@media screen and (max-width: 780px) {
+    .lists{
+        width: 100%;
+    }
+    
+    
+    
+    .navbar li{
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 780px){
+    .stylist{
+        margin: auto;
+        padding: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(116, 68, 68, 0.6);
+    }
+
+    .stylist ul li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        margin: 0 100px;
+        padding: 100px;
+        text-transform: uppercase;
+    }
+
+    .stylist ul li a{
+        color: rgb(254, 254, 254);
+        font-size: 500%;
+    }
+    .stylist ul li a:hover{
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+    }
+
+ 
+
+    .middle{
+        color:rgb(0, 0, 0);
+        font-size: 750%;
+        text-align: center;
+        background-color: rgba(116, 68, 68, 0.6);
+    }
+
+    .lol{
+        color:rgb(0, 0, 0);
+        font-size: 600%;
+        text-align: center;
+        background-color: rgba(116, 68, 68, 0.6);
+    }
+    .subscribe
+    {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(138, 135, 135);
+        align-items: center;
+    }
+}
+
+footer{
+
+    height: auto;
+    color: rgb(254, 254, 254);
+}
